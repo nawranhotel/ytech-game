@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y-TECH RACING</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container"></div>
+
+    <div id="game-ui">
+        <h2>Y-TECH RACING</h2>
+        <div class="info">SCORE: <span id="score">0</span></div>
+        <div class="info">SPEED: <span id="speed">0</span> KM/H</div>
+    </div>
+
+    <div id="message">LOADING GAME...</div>
+
+    <div id="controls">
+        <button id="left">◀</button>
+        <button id="brake">BRAKE</button>
+        <button id="right">▶</button>
+        <button id="nitro">NITRO ⚡</button>
+    </div>
+
+    <div id="game-over">
+        <h1>GAME OVER</h1>
+        <p>Your car crashed!</p>
+        <p id="final-score">SCORE: 0</p>
+        <button id="restart">RESTART</button>
+    </div>
+
+    <script type="module" src="game.js"></script>
+
+</body>
+</html>
